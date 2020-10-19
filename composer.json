@@ -1,0 +1,26 @@
+{
+  "name": "i-rocky/book-store",
+  "description": "A book store system with public engagement and sentiment analysis",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rocky",
+      "email": "wpkpda@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-mysqli": "*",
+    "ext-json": "*",
+    "ext-gd": "*",
+    "ext-iconv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/globals.php"
+    ]
+  }
+}
